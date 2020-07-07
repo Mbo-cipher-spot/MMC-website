@@ -6,8 +6,9 @@ Body{
 
 #slider{
   overflow: hidden;
-  height: 400px;
-  box-shadow: -0.1px -0.1px 6px 6px grey;
+  height: 450px;
+  box-shadow: 0px 0px 5px 0px grey;
+  margin-top: 10px;
 }
 
 #slider figure {
@@ -20,6 +21,7 @@ Body{
 
 #slider figure img {
   float: left;
+  height: 450px;
   width: 20%;
 } 
 
@@ -55,7 +57,8 @@ Body{
 }
 
 .mission{
-  margin-top:450px;
+  margin-top: 10px;
+  box-shadow: -0.1px 0px 5px 0px rgb(206, 202, 202);
   display: grid;
   background-color: white;
   column-gap: 5px;
@@ -150,32 +153,64 @@ width: 15%;
     margin-right: 0;
     align-self: center;
 }
-.search {
-   color: green;
-    padding: 20px;
-    float: right;
-    border: 1px solid rgb(55, 143, 116);
-    height: 20px;
-    margin-top: 30px;
-    margin-right:50px;
-    font-size: 18px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #fff;
+.text-input{
+  outline: none;
+  color: grey;
+  padding: 4px;
+  padding-right: 5px;
+  float: right;
+  border: 1px solid #eee;
+  width: 150px;
+  height: 35px;
+  margin-top: 40px;
+  margin-right: 95px;
+  font-size: 15px;
+  border-radius: 20px 0 0 20px;
+  box-shadow:1px 1px 1px 1px #e5e5e5;
+  border-right: 0px; 
 }
-.btn{
-    margin-right: -240px;
-    margin-top: 50px;
-    float: right;
-    font-size: 12px;
-    padding: 12px;
-    height: 20px;
-    border: 0px;
-    border-left: 1px solid grey;
-  
-    padding-top: 4px;
-    background-color: white;
+.text-input:hover{
+  padding: 3px;
+  background-color: white;
+  box-shadow: white;
+  border: 2px solid rgb(15, 196, 228);
+}
 
+#header{
+  
+  background-color: rgb(55, 143, 116);
+  width: 1350px;
+  height: 150px;
+  padding: 2px;
+  float: left;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: -150px;
+  position: fixed;
+}
+.search-icon {
+  color: white;
+  padding: 5px;
+  height: 35px;
+  margin-top: 40px;
+  margin-right: -195px;
+  background-color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  border: 1px solid #eee;
+  border-radius:0 50% 50% 0;
+  box-shadow:0px 1px 1px 1px #e5e5e5;
+  outline: none;
+  border-left: 0px;
+  position: relative;
+
+}
+.search-icon:hover{
+  background-color: white;
+  padding: 5px;
+  box-shadow:1px rgb(15, 196, 228);
+  border: 2px solid rgb(15, 196, 228);
 }
 
 .navbar-nav{
