@@ -121,14 +121,14 @@ text-transform: uppercase;
 .mission{
   margin-top: 40px;
   box-shadow: -5px -5px 15px 15px #eee;  display: grid;
-  background-color: white;
+  background-color: rgb(112, 29, 29);
   column-gap: 5px;
   grid-template-columns: repeat(2,1fr);
 
 }
 .mission-item{
   font-size: 20px;
-  background-color: rgb(231, 40, 40);
+  background-color: rgb(112, 29, 29);
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   font-family: 'Times New Roman', Times, serif;
