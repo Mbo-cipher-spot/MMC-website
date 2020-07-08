@@ -93,7 +93,7 @@ text-transform: uppercase;
   }
   20% {
       left: 0%;
-  }x  
+  }
   25% {
       left: -100%;
   }
@@ -118,45 +118,24 @@ text-transform: uppercase;
 
 }
 
-<<<<<<< HEAD
-#missionvisioncontainer{
-  /* margin-top: 10px;
-  box-shadow: -0.1px 0px 5px 0px rgb(206, 202, 202);
-  display: grid;
-=======
 .mission{
   margin-top: 40px;
   box-shadow: -5px -5px 15px 15px #eee;  display: grid;
->>>>>>> 69e8adb4307050896e5d52751b695897c91a18f8
   background-color: white;
-  
-  grid-template-columns: repeat(2,1fr); */
- column-gap: 20px;
+  column-gap: 5px;
+  grid-template-columns: repeat(2,1fr);
 
 }
-.map-box-shadow{
-  box-shadow: inset -0.1px 0px 5px 0px rgb(206, 202, 202);
-}
-#mission{
+.mission-item{
   font-size: 20px;
   background-color: rgb(231, 40, 40);
   font-family:Arial, Helvetica, sans-serif;
   color: white;
-  
-  padding:50px; 
-
-}
-#vision{
-    font-size: 20px;
-  background-color: red;
-  font-family:Arial, Helvetica, sans-serif;
-
-  color: white;
-  
+  font-family: 'Times New Roman', Times, serif;
   padding:50px;
-}
-
-#workinghours-item{
+  
+} 
+.workinghours-item{
   padding:70px;
  
 }
@@ -213,22 +192,16 @@ width: 15%;
     margin-top: 3px;*/
     border-radius: 50%;
 }
-input{  
-    color: grey;
-    border-radius: 10px;
-    border: 1px solid rgb(55, 143, 116);
-
-
-}
-#myinput{
+.myinput{
     color: grey;
     padding: 10px;
     float: right;
-      height: 20px;
+    border: 1px solid rgb(55, 143, 116);
+    height: 20px;
     margin-top: 40px;
     margin-right:50px;
     font-size: 18px;
-  
+    border-radius: 10px;
 }
 .myheader{
      padding: 0.5rem 1rem;
