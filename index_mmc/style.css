@@ -31,25 +31,60 @@ Body{
   width: 20%;
   color: grey;
 }
-.slide-aler{
+.slide-aler1{
   font-size: 15px;
   margin: 0px;
   padding: 50px;
   text-align: center;
-
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.slide-aler2{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic4.jpg);
+  background-size: cover;
+}
+.slide-aler3{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+}
+.slide-aler4{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic4.jpg);
+  background-size: cover;
+}
+.slide-aler5{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
 }
 .caption-name{
-  float: center;
-width: 20%;
+float: center;
+width: 500px;
 text-align: center;
 background-color: rgb(231, 40, 40);
 font-size: 40px;
-color: whitesmoke;
+color: rgb(250, 249, 249);
 height: 50px;
 margin-left: auto;
 margin-right: auto;
 padding: 0px;
-
+border-radius: 30px;
+text-transform: uppercase;
 }
 
 @keyframes slider{
