@@ -3,12 +3,12 @@ Body{
     background-color: grey;
     background: url();
 }
-
+/*---------slider---------*/
 #slider{
   overflow: hidden;
   height: 450px;
   box-shadow: 0px 0px 5px 0px grey;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #slider figure {
@@ -16,7 +16,7 @@ Body{
   width: 500%;
   margin: 0px;
   left: 0px;
-  animation: 20s slider infinite;
+  animation: ease-in 30s slider infinite;
 }
 
 #slider figure img {
@@ -24,6 +24,68 @@ Body{
   height: 450px;
   width: 20%;
 } 
+
+#slider figure div {
+  float: left;
+  height: 450px;
+  width: 20%;
+  color: grey;
+}
+.slide-aler1{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.slide-aler2{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic4.jpg);
+  background-size: cover;
+}
+.slide-aler3{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+}
+.slide-aler4{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic4.jpg);
+  background-size: cover;
+}
+.slide-aler5{
+  font-size: 15px;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/pic3.jpg);
+  background-size: cover;
+}
+.caption-name{
+float: center;
+width: 500px;
+text-align: center;
+background-color: rgb(231, 40, 40);
+font-size: 40px;
+color: rgb(250, 249, 249);
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+border-radius: 30px;
+text-transform: uppercase;
+}
 
 @keyframes slider{
   0% {
@@ -56,10 +118,16 @@ Body{
 
 }
 
+<<<<<<< HEAD
 #missionvisioncontainer{
   /* margin-top: 10px;
   box-shadow: -0.1px 0px 5px 0px rgb(206, 202, 202);
   display: grid;
+=======
+.mission{
+  margin-top: 40px;
+  box-shadow: -5px -5px 15px 15px #eee;  display: grid;
+>>>>>>> 69e8adb4307050896e5d52751b695897c91a18f8
   background-color: white;
   
   grid-template-columns: repeat(2,1fr); */
@@ -71,7 +139,7 @@ Body{
 }
 #mission{
   font-size: 20px;
-  background-color: red;
+  background-color: rgb(231, 40, 40);
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   
@@ -92,7 +160,10 @@ Body{
   padding:70px;
  
 }
-
+.main-container{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mycontainer{
     background-color: white;
