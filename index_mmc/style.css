@@ -8,7 +8,7 @@ Body{
   overflow: hidden;
   height: 450px;
   box-shadow: 0px 0px 5px 0px grey;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #slider figure {
@@ -16,7 +16,7 @@ Body{
   width: 500%;
   margin: 0px;
   left: 0px;
-  animation: 20s slider infinite;
+  animation: ease-in 30s slider infinite;
 }
 
 #slider figure img {
@@ -57,9 +57,8 @@ Body{
 }
 
 .mission{
-  margin-top: 10px;
-  box-shadow: -0.1px 0px 5px 0px rgb(206, 202, 202);
-  display: grid;
+  margin-top: 40px;
+  box-shadow: -5px -5px 15px 15px #eee;  display: grid;
   background-color: white;
   column-gap: 5px;
   grid-template-columns: repeat(2,1fr);
@@ -70,15 +69,18 @@ Body{
   background-color: red;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
-  
+  font-family: 'Times New Roman', Times, serif;
   padding:50px;
   
-}
+} 
 .workinghours-item{
   padding:70px;
  
 }
-
+.main-container{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mycontainer{
     background-color: white;
