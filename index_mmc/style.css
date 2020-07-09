@@ -192,7 +192,7 @@ width: 15%;
     margin-top: 3px;*/
     border-radius: 50%;
 }
-.myinput{
+.form-control{
     color: grey;
     padding: 10px;
     float: right;
@@ -234,6 +234,29 @@ width: 15%;
   border-right: 0px; 
 }
 .text-input:hover{
+  padding: 3px;
+  background-color: white;
+  box-shadow: white;
+  border: 2px solid rgb(15, 196, 228);
+}
+
+.form-control{
+  outline: none;
+  color: grey;
+  padding: 4px;
+  padding-right: 5px;
+  float: right;
+  border: 1px solid #eee;
+  width: 150px;
+  height: 35px;
+  margin-top: 40px;
+  margin-right: 95px;
+  font-size: 15px;
+  border-radius: 20px 0 0 20px;
+  box-shadow:1px 1px 1px 1px #e5e5e5;
+  border-right: 0px; 
+}
+.form-control:hover{
   padding: 3px;
   background-color: white;
   box-shadow: white;
