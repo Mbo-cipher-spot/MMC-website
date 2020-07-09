@@ -3,6 +3,16 @@ Body{
     background-color: grey;
     background: url();
 }
+#ex1{
+  
+  width:80px;
+}
+input[type=text]{
+
+  border-radius:20px 0px 0px 20px;
+}
+
+
 /*---------slider---------*/
 #slider{
   overflow: hidden;
@@ -275,12 +285,13 @@ width: 15%;
   margin-top: -150px;
   position: fixed;
 }
+
+
 .search-icon {
   color: white;
   padding: 5px;
   height: 35px;
-  margin-top: 40px;
-  margin-right: -195px;
+ 
   background-color: white;
   cursor: pointer;
   float: right;
