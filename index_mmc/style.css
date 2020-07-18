@@ -18,7 +18,7 @@ input[type=text]{
   overflow: hidden;
   height: 450px;
   /* box-shadow:0px 7px 5px 0px  grey; */
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #slider figure {
@@ -81,6 +81,7 @@ input[type=text]{
   text-align: center;
   background-image: url(images/pic3.jpg);
   background-size: cover;
+
 }
 .caption-name{
 float: center;
@@ -96,7 +97,49 @@ padding: 0px;
 border-radius: 30px;
 text-transform: uppercase;
 }
-
+.content{
+  background-color: whitesmoke;
+  opacity: 30%;
+  height: 300px;
+  border-radius: 10px;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  padding: 5px;
+  font-size: x-large;
+}
+.history{
+  text-transform: initial;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  box-shadow: 2px 2px 2px 2px #eee;
+  border-radius: 5px;
+  height:auto;
+  margin-top: 15px ;
+  margin-bottom: 5px;
+  box-shadow: -0.1px -0.1px 6px 6px rgb(211, 209, 209);
+  }
+  .his-head{
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-size: xx-large;
+    text-align: center;
+    
+  }
+  .his-para{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    color: gray;
+    font-size: x-large;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 @keyframes slider{
   0% {
       left: 0%;
@@ -131,7 +174,7 @@ text-transform: uppercase;
 #mvision{
   box-shadow: 0px 5px 5px ;
  margin-top:5px;
- 
+ border-radius: 5px;
     
 
 }
@@ -141,10 +184,9 @@ text-transform: uppercase;
   background-color: rgb(255, 20, 20);
   font-family:Arial, Helvetica, sans-serif;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
   padding:50px;
   height: 50vh;
-  
+  border-radius: 5px;
 } 
 
 
@@ -153,10 +195,9 @@ text-transform: uppercase;
   background-color: rgb(255, 20, 20);
   font-family:Arial, Helvetica, sans-serif;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
   padding:50px;
    height: 50vh;
-  
+  border-radius: 5px;
 } 
 #workinghours-item{
   padding:70px;
