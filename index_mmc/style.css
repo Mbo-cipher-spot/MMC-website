@@ -119,8 +119,11 @@ text-transform: uppercase;
   height:auto;
   margin-top: 15px ;
   margin-bottom: 5px;
+  box-shadow: -0.1px -0.1px 6px 6px rgb(211, 209, 209);
   }
   .his-head{
+    margin-left: auto;
+    margin-right: auto;
     color: gray;
     font-size: xx-large;
     text-align: center;
