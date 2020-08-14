@@ -185,7 +185,7 @@ text-transform: uppercase;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   padding:50px;
-  height: 50vh;
+  height: auto;
   border-radius: 5px;
 } 
 
@@ -196,7 +196,7 @@ text-transform: uppercase;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   padding:50px;
-   height: 50vh;
+   height: auto;
   border-radius: 5px;
 } 
 #workinghours-item{
@@ -293,9 +293,9 @@ width: 15%;
   float: right;
   border: 1px solid #eee;
   width: 150px;
-  height: 35px;
-  margin-top: 40px;
-  margin-right: 95px;
+  height: 25px;
+  margin-top: 50px;
+  margin-right: 90px;
   font-size: 15px;
   border-radius: 20px 0 0 20px;
   box-shadow:1px 1px 1px 1px #e5e5e5;
@@ -349,11 +349,12 @@ width: 15%;
   color: white;
   padding: 5px;
   height: 35px;
- 
+  margin-top: 40px;
+  margin-right: -300px;
   background-color: white;
   cursor: pointer;
   float: right;
-  font-size: 15px;
+  font-size: 20px;
   border: 1px solid #eee;
   border-radius:0 50% 50% 0;
   box-shadow:0px 1px 1px 1px #e5e5e5;
@@ -372,7 +373,7 @@ width: 15%;
 
 
 .navbar {
-    position: fixed;
+  position: fixed;
   /*background:#6ab446;*/
   background: rgb(55, 143, 116)
 }
@@ -392,5 +393,21 @@ width: 15%;
 }
 .nav-item:hover {
     background-color:transparent;
-    font-weight:bold;}
-    
+    font-weight:bold;
+  }
+  
+  .snl{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    alt: service logo;
+  }
+
+  .h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .h3{
+    text-align: center;
+  }
