@@ -16,7 +16,7 @@ input[type=text]{
 /*---------slider---------*/
 #slider{
   overflow: hidden;
-  height: 450px;
+  height: 420px;
   /* box-shadow:0px 7px 5px 0px  grey; */
   margin-top: 5px;
 }
@@ -87,21 +87,21 @@ input[type=text]{
 float: center;
 width: auto;
 text-align: center;
-background-color: rgb(231, 40, 40);
+background-color: coral;
 font-size: 40px;
 color: rgb(250, 249, 249);
 height: 50px;
 margin-left: auto;
 margin-right: auto;
 padding: 0px;
-border-radius: 30px;
+border-radius: 15px 15px 0px 0px ;
 text-transform: uppercase;
 }
 .content{
   background-color: whitesmoke;
   opacity: 30%;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 0px 0px 15px 15px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -174,7 +174,7 @@ text-transform: uppercase;
 
 #vision{
   font-size: 20px;
-  background-color: rgb(255, 20, 20);
+  background-color: coral;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   padding:50px;
@@ -198,12 +198,13 @@ text-transform: uppercase;
   padding:50px;
   height: auto;
   border-radius: 5px;
+  text-align: center;
 }
 
 
 #mission{
   font-size: 20px;
-  background-color: rgb(255, 20, 20);
+  background-color: coral;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
   padding:50px;
@@ -432,7 +433,18 @@ width: 15%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color:rgb(55, 143, 116) ;
   }
   .h3{
-    text-align: center;
+    text-align: justify;
+  }
+  #logoimg-s{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px;
+   
   }
