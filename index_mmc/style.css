@@ -49,14 +49,16 @@ input[type=text]{
   background-image: url(images/pic3.jpg);
   background-size: cover;
   height: 450px;
+  width: auto;
 }
 .slide-aler2{
   font-size: 15px;
   margin: 0px;
   padding: 50px;
   text-align: center;
-  background-image: url(images/pic4.jpg);
+  background-image: url(images/malaria-mosquito.jpg);
   background-size: cover;
+  width: auto;
 }
 .slide-aler3{
   font-size: 15px;
@@ -65,14 +67,16 @@ input[type=text]{
   text-align: center;
   background-image: url(images/pic3.jpg);
   background-size: cover;
+  width: auto;
 }
 .slide-aler4{
   font-size: 15px;
   margin: 0px;
   padding: 50px;
   text-align: center;
-  background-image: url(images/pic4.jpg);
+  background-image: url(images/hepatitis\ B.jpg.resize.702.404.jpg);
   background-size: cover;
+  width: auto;
 }
 .slide-aler5{
   font-size: 15px;
@@ -81,7 +85,7 @@ input[type=text]{
   text-align: center;
   background-image: url(images/pic3.jpg);
   background-size: cover;
-
+width: auto;
 }
 .caption-name{
 float: center;
@@ -113,6 +117,7 @@ text-transform: uppercase;
   text-transform: initial;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
   padding: 0px;
   box-shadow: 2px 2px 2px 2px #eee;
   border-radius: 5px;
@@ -136,7 +141,7 @@ text-transform: uppercase;
     text-align: justify;
     color: gray;
     font-size: x-large;
-    width: 1200px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
@@ -439,9 +444,10 @@ width: 15%;
     text-align: justify;
   }
   #logoimg-s{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    border: 2px coral;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
